@@ -1,7 +1,7 @@
 
-#CALO, FRANCISCO MATIAS L:176.114-6
+# CALO, FRANCISCO MATIAS L:176.114-6
 
-##Compilador
+## Compilador
 g++.exe (tdm64-1) 10.3.0
 Copyright (C) 2020 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
