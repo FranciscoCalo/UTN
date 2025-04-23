@@ -1,7 +1,7 @@
 
-![Logo UTN](https://innovavista.net/imagenes/archivos/proyectos/272_imagen_750x480xrecortarSuperior.jpg?random=1735076258 "Logo UTN")
 
-# CALO, FRANCISCO MATIAS L:176.114-6
+
+# ![Logo UTN](https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg "Logo UTN") CALO, FRANCISCO MATIAS L:176.114-6
 
 ## Compilador
 g++.exe (tdm64-1) 10.3.0
