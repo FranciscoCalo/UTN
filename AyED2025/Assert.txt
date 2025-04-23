@@ -1,0 +1,27 @@
+ENG:
+
+In C++, assert is a macro used for debugging purposes. It tests a condition, and if the condition is false, the program terminates with an error message.  It is defined in the <cassert> header. 
+
+The basic syntax for C++ is:
+assert(expression);
+
+- If expression evaluates to true, assert does nothing. 
+- If expression evaluates to false, assert prints an error message to the standard error stream and calls abort, which terminates the program.
+
+assert is typically used to check for conditions that should always be true, and it is intended to be used during development and testing, not in production code. 
+When the macro NDEBUG is defined, usually for release builds, all assert statements are disabled, preventing any overhead in the final product.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ESP:
+
+En C++ assert es una macro usada para realizar debug. Esta pone a prueba una condicion definida por el usuario. Si la condicion es falsa, el programa finaliza con un mensaje de error.
+
+La sintax basica para C++ es:
+
+assert (expresion);
+
+- Si la expresion se evalua como verdad, assert no hace nada.
+- Si la expresion se evalua como falsa, assert imprime un mensaje de error al standar error stream y aborta, terminando el programa.
+
+assert es usado tipicamente para chequear condiciones que deberian ser verdad siempre, y se deberia usar para desarrollo y testeo, no en codigo de produccion.
+Cuando se usa el macro NDEBUG, por lo general para releases, todos las declaraciones de assert se deshabilitan, previniendo una sobrecarga del producto final.

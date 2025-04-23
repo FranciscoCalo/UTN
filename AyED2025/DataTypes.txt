@@ -1,0 +1,73 @@
+ENG:
+
+Data types in C++ specify the type of data that a variable can hold, influencing the amount of memory allocated and the operations that can be performed. 
+They are categorized into three main types: primitive, derived, and user-defined.
+
+-- Primitive Data Types
+These are fundamental types built into the language:
+- int: Represents integers (whole numbers), size is usually 4 bytes.
+- float: Represents single-precision floating-point numbers, size is usually 4 bytes.
+- double: Represents double-precision floating-point numbers, size is usually 8 bytes, offering higher precision than float.
+- char: Represents a single character, size is 1 byte.
+- bool: Represents boolean values, either true or false, size is 1 byte.
+- void: Represents the absence of a type.
+
+-- Derived Data Types
+These are built from primitive data types:
+- Arrays: Ordered collections of elements of the same data type.
+- Pointers: Variables that store memory addresses.
+- References: Aliases for existing variables.
+
+- User-Defined Data Types
+These are created by the programmer:
+- Structures: Group together variables of different data types under a single name.
+- Classes: Blueprints for objects, encapsulating data and functions.
+- Unions: Similar to structures, but all members share the same memory location.
+- Enumerations: Sets of named integer constants.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+CODE:
+
+#include <iostream>
+#include <string>
+
+int main() {
+  // Primitive data types
+  int age = 30;
+  float pi = 3.14f;
+  double salary = 50000.50;
+  char initial = 'J';
+  bool isEmployed = true;
+
+  // Derived data types
+  int numbers[] = {1, 2, 3, 4, 5};
+  int* ptr = &age; 
+  int& refAge = age;
+
+  // User-defined data types
+  struct Person {
+    std::string name;
+    int age;
+  };
+
+  Person person1;
+  person1.name = "John Doe";
+  person1.age = 25;
+
+  std::cout << "Age: " << age << std::endl;
+  std::cout << "Pi: " << pi << std::endl;
+  std::cout << "Salary: " << salary << std::endl;
+  std::cout << "Initial: " << initial << std::endl;
+  std::cout << "Is Employed: " << isEmployed << std::endl;
+
+  std::cout << "First number in array: " << numbers[0] << std::endl;
+  std::cout << "Address of age: " << ptr << std::endl;
+  std.cout << "Age through reference: " << refAge << std::endl;
+
+  std::cout << "Person name: " << person1.name << std::endl;
+  std::cout << "Person age: " << person1.age << std::endl;
+
+  return 0;
+}
