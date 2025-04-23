@@ -1,5 +1,5 @@
 
-![Logo UTN](https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.m.wikipedia.org%2Fwiki%2FArchivo%3AUTN_logo.jpg&psig=AOvVaw0TNDI5-okP8G8LhIdYqPsB&ust=1745532139967000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJib64-U74wDFQAAAAAdAAAAABAE "Logo UTN")
+![Logo UTN](https://innovavista.net/imagenes/archivos/proyectos/272_imagen_750x480xrecortarSuperior.jpg?random=1735076258 "Logo UTN")
 
 # CALO, FRANCISCO MATIAS L:176.114-6
 
