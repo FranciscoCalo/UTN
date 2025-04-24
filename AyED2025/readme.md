@@ -4,7 +4,7 @@
 # CALO, FRANCISCO MATIAS L:176.114-6
 
 ## Compilador
-g++.exe (tdm64-1) 10.3.0
-Copyright (C) 2020 Free Software Foundation, Inc.
+g++.exe (Rev2, Built by MSYS2 project) 14.2.0
+Copyright (C) 2024 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.-t
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
