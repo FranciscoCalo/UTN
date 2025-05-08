@@ -1,0 +1,9 @@
+Clase Mayo 07
+
+Que se vio:
+    - Repaso tipos de datos
+    - Revision de TP0
+    - Investigar LiveShare para ver los cambios de cada usuario (para entrega de tps)
+    - Double, aproximaciones IEEE 754 (investigar) (TP0)
+    - Introduccion a funciones 
+

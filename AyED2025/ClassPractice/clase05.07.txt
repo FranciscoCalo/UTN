@@ -1,6 +1,0 @@
-Clase Mayo 07
-
-Que se vio:
-    - Repaso tipos de datos
-    - Revision de TP0
-
