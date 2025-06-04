@@ -1,6 +1,6 @@
 #include <cassert>
 #include <iostream> 
-#include <cstdio> // se usa para funciones de entrada/salida como fprintf
+#include <cstdio> // se usa para funciones de entrada/salida como fprintf, FILE* y _open que permite enviar datos y comandos a gnuplot
 
 
 /* Implementacion Matematica:
