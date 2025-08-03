@@ -12,6 +12,7 @@ C: R -> R / C(f) = (f - 32) * 5/9
 /*Definicion de funciones*/
 double celciusToFarenheit(double);
 double farenheitToCelcius(double);
+bool AreNear(double, double, double = 0.001);
 
 
 int main() {
@@ -31,10 +32,12 @@ int main() {
         std::cout << i << "\t" << celciusToFarenheit(i) << "\n";
     }
 
+    // agregar tabla inversa farenheit to celcius.
+
     // Para graficar los datos, se usa gnuplot
     // Asegurarse de que gnuplot este instalado y en el PATH del sistema
     
-    FILE* gnuplotPipe = _popen("gnuplot -persistent", "w"); // abrir gnuplot en modo escritura, como si escribiera en la consola gnuplot
+   /* FILE* gnuplotPipe = _popen("gnuplot -persistent", "w"); // abrir gnuplot en modo escritura, como si escribiera en la consola gnuplot
 
     if (gnuplotPipe) { // Si se pudo abrir gnuplot
         // Se envian los comandos a gnuplot para graficar
@@ -59,7 +62,7 @@ int main() {
     } else {
         std::cerr << "No se pudo abrir gnuplot.\n";
     }
-    
+ */   
 }
 
 /* Implementacion de funciones*/
@@ -70,3 +73,7 @@ double celciusToFarenheit(double celcius) {
 double farenheitToCelcius(double farenheit) {
     return ((farenheit - 32) * 5.0 / 9.0);
 } 
+
+bool AreNear(double a, double b, double delta){
+    return (a-delta) <= b and b <= (a+delta);
+}
