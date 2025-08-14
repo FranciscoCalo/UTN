@@ -11,7 +11,8 @@ int main (){
 
 unsigned Suma (unsigned n){
 
-unsigned s {0};
+unsigned s {0}; // iniciamos las variables con { 0 } , tambien se puede usar { }, las variables numericas "vacias" se inician en 0.
+
 
 for (unsigned i {0} ;       i <= n ;                         ++i )
      // 1 sola vez ; al principio de cada vuelta ; al final de cada vuelta
