@@ -1,0 +1,13 @@
+Que vimos:
+
+    - Parcial 1
+    - Iteracion introduccion
+        - for (el "for" repite sentencias/acciones)
+                    n
+        SUMA (n) :  E i
+                   i=0
+
+    - Variables = un espacio en memoria que puede guardar valores y lo referenciamos con un nombre
+
+Proxima Clase:
+    - Arrays
