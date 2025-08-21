@@ -20,15 +20,22 @@ int main(){
 
 */
 
+void frase1(unsigned , std::string);
+std::string frase2(unsigned , std::string);
 
 std::string repetirFrase1(unsigned);
 void repetirFrase2(unsigned);
 
 int main(){
 
-    std::cout << repetirFrase1(2);
+    // std::cout << repetirFrase1(2);
+    // std::cout << "\n";
+    // repetirFrase2(2);
+
+    frase1(2, "bart");
     std::cout << "\n";
-    repetirFrase2(2);
+    std::cout << frase2(2, "bart");
+
 }
 
 std::string repetirFrase1 (unsigned n){
@@ -40,4 +47,23 @@ void repetirFrase2(unsigned n){
         std::cout << "Voy a practicar programacion \n";
         repetirFrase2(n - 1);
     }
+}
+
+void frase1(const unsigned n, const std::string s){
+
+for (unsigned i {}; i < n ; ++i)
+
+    std::cout << s << "\n";
+
+}
+
+std::string frase2(const unsigned n, const std::string s){
+    std::string r{};
+
+    for (unsigned i {}; i < n ; ++i)
+
+     r = r + s + "\n";
+
+    return r;
+ 
 }

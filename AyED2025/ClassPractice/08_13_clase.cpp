@@ -1,6 +1,8 @@
 #include <cassert>
 
-unsigned Suma (unsigned);
+unsigned SumaR (unsigned);
+unsigned SumaI (unsigned);
+unsigned SumaF (unsigned);
 
 int main (){
 
@@ -9,7 +11,13 @@ int main (){
 }
 
 
-unsigned Suma (unsigned n){
+unsigned SumaR (unsigned n){
+
+    return (n == 0) ? 0 : n + SumaR(n - 1);
+
+}
+
+unsigned SumaI (unsigned n){
 
 unsigned s {0}; // iniciamos las variables con { 0 } , tambien se puede usar { }, las variables numericas "vacias" se inician en 0.
 
@@ -19,7 +27,10 @@ for (unsigned i {0} ;       i <= n ;                         ++i )
      s = s + i;
      // s+=i;
 // el for no tiene las llaves porque repite una sentencia nomas.
+}
 
+unsigned SumaF (unsigned n) {
 
+    return (n * (n + 1)) / 2;
 
 }
