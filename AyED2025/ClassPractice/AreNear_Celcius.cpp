@@ -13,6 +13,7 @@ int main(){
 }
 
 double Celsius(double f){return 5.0/9.0*(f-32);}
+
 bool AreNear(double a, double b, double delta){
     return (a-delta) <= b and b <= (a+delta);
 }

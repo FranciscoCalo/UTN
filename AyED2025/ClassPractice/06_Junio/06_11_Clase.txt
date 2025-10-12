@@ -1,0 +1,18 @@
+Clase Junio 11
+
+Que se vio:
+    - Revision TP01 - En casos que se quiera hacer una prueba negativa, usar not EJ: assert(not(3+3==0));
+    - Tener cuidado al hacer commits
+    - Operacion sufijo (EJ: "hola"s.length() )
+    - TP02 algunos ejemplos para graficar/tablas:
+        - Graficar: SVG o "ascii art"
+        - 
+    - Funciones
+        - Valor Absoluto
+        - F3
+        - F4
+    - Operador condicional "?"
+
+Para la proxima clase:
+    - TP02 subido a github
+    - Vamos a ver generacion de valroes de forma repetitiva (recursividad)

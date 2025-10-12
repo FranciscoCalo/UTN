@@ -1,0 +1,13 @@
+Clase 07/02
+
+Que se vio
+
+
+Tarea:
+
+    - Examen tema principal funciones
+    - Trabajo
+        Credito Extra: SVG Recursivo
+        recursividad
+            Fx inventada
+            Repeticion de frases (fun bart)

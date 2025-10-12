@@ -1,0 +1,39 @@
+Que vimos:
+
+    - Parcial 1
+    - Iteracion introduccion
+        - for (el "for" repite sentencias/acciones)
+                    n
+        SUMA (n) :  E i
+                   i=0
+
+    - Variables = un espacio en memoria que puede guardar valores y lo referenciamos con un nombre
+
+Proxima Clase:
+    - Arrays 
+    En C++, un array (arreglo) es una estructura de datos que permite almacenar una colección de elementos del mismo tipo en posiciones contiguas de memoria. Cada elemento se accede mediante un índice numérico, comenzando desde 0.
+
+Ejemplo de declaración y uso:
+
+// Declarar un array de 5 enteros
+int numeros[5];
+
+// Asignar valores
+numeros[0] = 10;
+numeros[1] = 20;
+
+// Acceder a un valor
+int x = numeros[0]; // x vale 10
+
+Los arrays en C++ tienen tamaño fijo (definido al declararlos) y todos sus elementos son del mismo tipo.
+
+-----------------------------------------------------------------
+variable
+
+En C++, una variable es un espacio en memoria que se utiliza para almacenar un valor de un tipo de dato específico. Se le asigna un nombre para poder referenciarla y manipular su contenido a lo largo del programa.
+
+Ejemplo:
+
+int edad = 20; // 'edad' es una variable de tipo entero que almacena el valor 20
+
+Las variables pueden cambiar su valor durante la ejecución del programa.

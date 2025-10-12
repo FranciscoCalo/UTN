@@ -1,0 +1,2 @@
+------ NECESIDAD #1: TOTAL VENTAS ------
+Total de ventas = $1008453
