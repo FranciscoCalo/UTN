@@ -8,12 +8,12 @@ enum struct PuntoCardinal {
 };
 
 
-using enum PuntoCardinal;
+//using enum PuntoCardinal;
 
 int main(){
 
-PuntoCardinal orientacion { Norte };
-assert (orientacion == Norte);
-orientacion = Sur;
+//PuntoCardinal orientacion { Norte };
+//assert (orientacion == Norte);
+//orientacion = Sur;
 
 }
