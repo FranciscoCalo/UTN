@@ -1,0 +1,17 @@
+Clase Mayo 28
+
+Que se vio:
+    - Funcion farenheitToCelcius
+    - Funcion celciusToFarenheit
+    - PreCondiciones y PostCondiciones de funciones
+        - Precondiciones: chequeo de "entradas" 
+        - PostCondiciones: chequeo del "resultado"
+
+Para la clase que viene:
+    - TP2 (en seccion 7) (funcion celcius y farenheit)
+        - Implementacion matematica
+        - Definicion de las funciones
+        - Implementacion de las funciones  
+        - Opcional: Graficos de ambas funciones (revisar librerias: )
+    - 2 tablas: - una de celcius a farenheit 
+                - otra de farenheit a celcius
