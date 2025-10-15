@@ -1,7 +1,6 @@
 #include <cassert>
 #include <string>
 
-
 enum struct Carrera:char {Sistemas = 'K', Electronica = 'R'};
 enum struct Nivel:char {Primero = '1', Segundo = '2', Tercero = '3'};
 enum struct Turno:char {Mañana = '1', Tarde = '3', Noche = '5'};
