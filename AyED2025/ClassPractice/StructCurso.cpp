@@ -1,6 +1,13 @@
 #include <cassert>
 #include <string>
 
+
+enum struct Carrera:char {Sistemas = 'K', Electronica = 'R'};
+enum struct Nivel:char {Primero = '1', Segundo = '2', Tercero = '3'};
+enum struct Turno:char {Mañana = '1', Tarde = '3', Noche = '5'};
+enum struct Dia:char {Lunes = '1', Martes = '2', Miercoles = '3', Jueves = '4', Viernes = '5', Sabado = '6'};
+enum struct Modalidad:char {Anual='A' , Cuatrimestral='C'};
+
 struct comision{
     Carrera carrera;
     Nivel nivel;
@@ -9,12 +16,6 @@ struct comision{
     Dia dia;
     Modalidad modalidad;
 };
-
-enum struct Carrera:char {Sistemas = 'K', Electronica = 'R'};
-enum struct Nivel:char {Primero = '1', Segundo = '2', Tercero = '3'};
-enum struct Turno:char {Mañana = '1', Tarde = '3', Noche = '5'};
-enum struct Dia:char {Lunes = '1', Martes = '2', Miercoles = '3', Jueves = '4', Viernes = '5', Sabado = '6'};
-enum struct Modalidad:char {Anual='A' , Cuatrimestral='C'};
 
 // comision c1 {Sistemas,Primero,0,Noche,Miercoles,Anual};
 
@@ -43,11 +44,11 @@ int main(){
     assert(c1.dia == Dia::Miercoles);
     assert(c1.modalidad == Modalidad::Anual);
 
-    assert (StringAComision(str1).carrera == Carrera::Sistemas == 'K');
-    assert (StringAComision(str1).nivel == Nivel::Primero == '1');
+    assert (StringAComision(str1).carrera == Carrera::Sistemas);
+    assert (StringAComision(str1).nivel == Nivel::Primero);
     assert (StringAComision(str1).desdoble == 0);
-    assert (StringAComision(str1).turno == Turno::Noche == '5');
-    assert (StringAComision(str1).dia == Dia::Miercoles == '3');
+    assert (StringAComision(str1).turno == Turno::Noche);
+    assert (StringAComision(str1).dia == Dia::Miercoles);
     // assert (StringAComision(str1).modalidad == Modalidad::Anual);
 
     assert (ComisionAString(c1) == "K1053");
