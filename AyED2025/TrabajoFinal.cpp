@@ -55,8 +55,6 @@ int main() {
     assert(getCantidadLados(tri) == 3);
 
     double per_tri = getPerimetro(tri);
-    // const double eps = 1e-9;
-    // assert(std::fabs(per_tri - 12.0) < eps);
     assert(areNear(getPerimetro(tri),12));
 
     // Test 2: Cuadrado de lado 2 -> perímetro 8
@@ -72,7 +70,6 @@ int main() {
 
     assert(getCantidadPuntos(sq.secuenciadepuntos) == 4);
     assert(areNear(getPerimetro(sq),8));
-    // assert(std::fabs(getPerimetro(sq) - 8.0) < eps);
 
     // Test 3: polígonos con < 2 puntos -> perímetro 0
     SecuenciaDePuntos s3;
@@ -82,7 +79,7 @@ int main() {
     p_empty.color = Color::Azul;
     assert(getPerimetro(p_empty) == 0.0);
 
-    // Test 4: Poligono de 6 lados
+    // Test 4: Poligono de 6 lados -> perímetro ~9.6
     SecuenciaDePuntos s4;
     s4.n = 0;
     addPunto(s4, {0,0});
