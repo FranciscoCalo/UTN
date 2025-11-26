@@ -172,6 +172,8 @@ Punto leerPunto(std::ifstream& f){
 
 void removePunto(SecuenciaDePuntos& s, Punto p)
 {
+    // nos permite sacar un punto en cualquier lugar
+    // opcion simple para "sacar" el ultimo punto seria reducir s.n
     unsigned index = s.n; // índice fuera de rango
     for (unsigned i = 0; i < s.n; ++i) 
     {
